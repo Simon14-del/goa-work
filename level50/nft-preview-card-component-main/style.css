@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+#main{
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+#img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+#img img{
+    border: 10px;
+}
+
+#title1{
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 30px;
+    color: white;
+}
+
+#texts1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#p1{
+    width: 300px;
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+    padding-left: 25px;
+}
+
+
+#bluetext{
+    display: flex;
+    margin-top: 35px;
+    padding-left: 25px;
+    gap: 10px;
+}
+
+#bluetext p{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+#texts2{
+    display: flex;
+    gap: 90px;
+}
+
+#days3{
+    display: flex;
+    margin-top: 35px;
+    
+}
+#dy3{
+    font-size: 14px;
+    width: 100px ;
+    font-weight: 520;
+    color: hsl(215, 51%, 70%);
+}
+#dy3img{
+    width: 20px;
+    height: 20px;
+}
+#b0{
+    width: 100px;
+}
+
+#line{
+    color: hsl(215, 51%, 70%);
+    margin-left: 20px;
+}
+
+#info img{
+    width: 45px;
+    padding: 20px;
+    margin-left: -80px;
+}
+
+#info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#creation{
+    color: hsl(215, 51%, 70%);
+}
+
+span{
+    color: hsl(0, 0%, 100%);
+}

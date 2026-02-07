@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Arial;
+        background: white;
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .form-cotainer {
+        max-width: 600px;
+        width: 100%;
+    }
+
+
+    h1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    p {
+        margin-bottom: 20px;
+        color: black;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+      .row {
+      display: flex;
+      gap: 15px;
+    }
+
+    .row input {
+      flex: 1;
+    }
+
+
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .checkbox-container input {
+      margin-right: 10px;
+    }
+
+    .checkbox-container a {
+      color: black;
+      text-decoration: underline;
+    }
+
+    button {
+      background-color: black;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    
+    }
+
+    button:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h1>Send Us a Message</h1>
+    <p>Please fill in the form below to get in touch with us.</p>
+
+    <form>
+      <div class="row">
+        <input type="text" placeholder="First name" required>
+        <input type="text" placeholder="Last name" required>
+      </div>
+      <div class="row">
+        <input type="email" placeholder="Email address" required>
+        <input type="tel" placeholder="Phone Number">
+      </div>
+
+      <div class="checkbox-container">
+        <input type="checkbox" id="terms" required>
+        <label for="terms">
+          I've read and agree with
+          <a href=";">Terms of Service</a> and
+          <a href=";">Privacy Policy</a>
+        </label>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</style>
+</body>
+</html>
+

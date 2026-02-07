@@ -1,0 +1,25 @@
+/* flexbox ჩასართავად */
+display: flex; /* ელემენტები დალაგდება flexbox-ის წესებით */
+
+/* მიმართულება */
+flex-direction: row;      /* ჰორიზონტალური განლაგება (default) */
+flex-direction: column;   /* ვერტიკალური განლაგება */
+flex-direction: row-reverse;    /* ჰორიზონტალური უკუღმა */
+flex-direction: column-reverse; /* ვერტიკალური უკუღმა */
+
+/* ჰორიზონტალური განლაგება (main axis) */
+justify-content: flex-start;   /* მარცხენა მხარეს */
+justify-content: flex-end;     /* მარჯვენა მხარეს */
+justify-content: center;       /* ცენტრში */
+justify-content: space-between;/* პირველი მარცხნივ, ბოლო მარჯვნივ, შუაში განაწილება */
+justify-content: space-around; /* ელემენტებს შორის თანაბარი დაშორება */
+justify-content: space-evenly; /* ელემენტები თანაბრად, კიდეებზეც */
+
+/* ვერტიკალური განლაგება (cross axis) */
+align-items: flex-start;  /* ზევით */
+align-items: flex-end;    /* ქვევით */
+align-items: center;      /* შუაში */
+
+
+/* ელემენტების რიგის შეცვლა */
+order: 2; /* რიცხვით დგინდება რომელი ელემენტი პირველია, default 0 */

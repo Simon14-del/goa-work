@@ -1,0 +1,10 @@
+.box-fixed {
+  width: 150px;
+  height: 150px;
+  background-color: lightcoral;
+  border: 2px solid darkred;
+
+  position: fixed; 
+  top: 50px;       
+  left: 50px;      
+}

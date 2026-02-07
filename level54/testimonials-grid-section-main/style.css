@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  sans-serif;
+}
+
+body {
+  background-color: #f5f7fa;
+  color: black;
+  line-height: 1.5;
+  padding: 40px 20px;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card.daniel {
+  grid-column: span 2;
+  background-color: hsl(263, 55%, 52%);
+  color: white;
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card .subtitle {
+  font-size: 0.85rem;
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 15px;
+}
+
+.card.daniel .subtitle {
+  color: hsl(0, 0%, 100%);
+}
+
+.card .highlight {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card.daniel .highlight {
+  color: hsl(0, 0%, 100%);
+}
+
+.card .quote {
+  font-size: 0.95rem;
+  color: hsl(228, 12%, 48%);
+  line-height: 1.6;
+}
+
+.card.daniel .quote {
+  color: hsl(0, 0%, 100%);
+}
+.card.jonathan{
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+
+}
+.card.patrick{
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+}
+.profile-pic{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 0.85rem;
+}
+
+footer a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+

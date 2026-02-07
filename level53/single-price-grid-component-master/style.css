@@ -1,0 +1,109 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: hsl(204, 43%, 93%);
+  margin: 0;
+  color: hsl(218, 22%, 67%);
+}
+
+main.pricing-card {
+  width: 700px;
+  margin: 4rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+  background-color: white;
+  padding: 2.5rem;
+}
+
+.intro h1 {
+  color: hsl(179, 62%, 43%);
+  margin-bottom: 1rem;
+}
+
+.intro .guarantee {
+  color: hsl(71, 73%, 54%);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.subscription {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+  padding: 2rem;
+}
+
+.subscription h2 {
+  margin-top: 0;
+}
+
+.subscription .price {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.subscription .price span {
+  font-size: 2.2rem;
+}
+
+.subscription .note {
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+}
+
+.signup-btn {
+  width: 100%;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.signup-btn:hover {
+  background-color: hsl(71, 73%, 48%);
+}
+
+.why-us {
+  background-color: hsl(179, 47%, 52%);
+  color: white;
+  padding: 2rem;
+}
+
+.why-us h2 {
+  margin-top: 0;
+}
+
+.why-us ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.why-us li {
+  margin-bottom: 0.4rem;
+  opacity: 0.95;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 1.5rem 0;
+  color: hsl(218, 22%, 60%);
+}
+
+footer a {
+  color: hsl(179, 62%, 43%);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+

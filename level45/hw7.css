@@ -1,0 +1,10 @@
+.box-image {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+
+  
+  background-size: cover;   
+  background-position: center; 
+  background-repeat: no-repeat; 
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mortgage Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="page">
+    <section class="calculator">
+
+      <div class="calculator__form">
+        <header class="header">
+          <h1>Mortgage Calculator</h1>
+          <button class="clear">Clear All</button>
+        </header>
+
+        <div class="field">
+          <label>Mortgage Amount</label>
+          <div class="input-group">
+            <span>£</span>
+            <input type="text">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label>Mortgage Term</label>
+            <div class="input-group">
+              <input type="text">
+              <span>years</span>
+            </div>
+          </div>
+
+          <div class="field">
+            <label>Interest Rate</label>
+            <div class="input-group">
+              <input type="text">
+              <span>%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="field">
+          <label>Mortgage Type</label>
+
+          <label class="radio">
+            <input type="radio" name="type">
+            Repayment
+          </label>
+
+          <label class="radio">
+            <input type="radio" name="type">
+            Interest Only
+          </label>
+        </div>
+
+        <button class="calculate">
+          Calculate Repayments
+        </button>
+      </div>
+
+      <div class="calculator__results">
+        <h2>Results shown here</h2>
+        <p>
+         Complete the form and click “calculate repayments” to see what
+          your monthly repayments would be.
+        </p>
+        <img src="assets/images/illustration-empty.svg" alt="">
+      </div>
+
+    </section>
+  </main>
+
+</body>
+</html>

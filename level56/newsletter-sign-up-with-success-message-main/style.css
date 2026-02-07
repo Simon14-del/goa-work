@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: grid;
+  place-items: center;
+  min-height: 100vh; 
+  background-color:  hsl(235, 18%, 26%);
+}
+
+.card {
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+  display: flex;
+  width: min(900px, 92vw);
+  min-height: 520px;               
+  box-shadow: 0 20px 50px rgba(0,0,0,.25);
+}
+
+.text {
+  flex: 1;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+label { font-size: .85rem; 
+    font-weight: 700; 
+    display: block; }
+
+
+input {
+  width: 100%; 
+  padding: 14px 16px;
+   margin: 8px 0 14px;
+  border-radius: 10px;
+   border: 1px solid;
+}
+button {
+  width: 100%; padding: 14px 16px; border: 0; 
+  border-radius: 10px;
+  color: white; 
+  font-weight: 700; 
+  cursor: pointer;
+  background-color: hsl(4, 100%, 67%);
+}
+button:hover { background: rgb(155, 45, 26); }
+
+.image {
+  flex: 1;
+  min-height: 320px; 
+  background-image: url("./assets/images/illustration-sign-up-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1{
+  font-size: 35px;
+}
+

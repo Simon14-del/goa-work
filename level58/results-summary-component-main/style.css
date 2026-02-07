@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: hsl(221, 100%, 96%);
+  color: hsl(224, 30%, 27%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 720px;
+  width: 100%;
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+@media (min-width:24px){
+  .card {
+    flex-direction: row;
+  }
+}
+
+.result {
+  flex: 1;
+  padding: 32px 40px;
+  text-align: center;
+  background: hsl(241, 81%, 54%);
+  color: white;
+}
+
+.result-title {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  margin-bottom: 24px;
+}
+
+.score-circle {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 24px;
+  border-radius: 50%;
+  background:hsl(241, 81%, 40%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.score-main {
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.score-max {
+  opacity: 0.6;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+.result-label {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.result-text {
+  font-size: 0.95rem;
+  opacity: 0.8;
+  max-width: 260px;
+  margin: 0 auto;
+}
+
+.summary {
+  flex: 1;
+  padding: 32px 40px;
+  background: white
+}
+
+.summary-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.summary-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 14px;
+  border-radius: 999px
+  font-size: 0.95rem;
+}
+
+.summary-item-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.summary-score {
+  font-weight: 700;
+}
+
+.summary-score span {
+  opacity: 0.5;
+}
+
+.reaction {
+
+  color: hsl(0, 100%, 67%);
+}
+
+.memory {
+  color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+  color: hsl(166, 100%, 37%);
+}
+
+.visual {
+  color: hsl(234, 85%, 45%);
+}
+
+.btn-continue {
+  width: 100%;
+  padding: 14px 0;
+  border-radius: 999px;
+  border: none;
+  background: hsl(224, 30%, 27%);
+  color: white;
+  font-size: 0.98rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btn-continue:hover {
+  background: hsl(224, 30%, 17%);
+}
+
+.attribution {
+  margin-top: 20px;
+  font-size: 0.75rem;
+  text-align: center;
+  color: hsl(224, 30%, 50%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}

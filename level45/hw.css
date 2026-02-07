@@ -1,0 +1,16 @@
+/* position-ის ყველა მნიშვნელობა */
+
+/* static (default) → ელემენტი დალაგებულია ჩვეულებრივ დოკუმენტის ნაკადში */
+position: static; 
+
+/* relative → ელემენტი რჩება ნაკადში, მაგრამ შეგვიძლია გადაადგილება top, left, right, bottom-ით */
+position: relative;
+
+/* absolute → ელემენტი გამოდის ნაკადიდან და პოზიციონირდება უახლოესი "relative" ან "absolute" parent-ის მიმართ */
+position: absolute;
+
+/* fixed → ელემენტი ეკრანზე მიბმულია, scroll-ის დროსაც იგივე ადგილზე რჩება */
+position: fixed;
+
+/* sticky → ელემენტი behaves როგორც relative, მაგრამ scrolling-ისას ხდება fixed გარკვეულ წერტილამდე */
+position: sticky;

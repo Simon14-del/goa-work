@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>document</title>
+  <style>
+    .container {
+      display: flex;         /* Flexbox კონტეინერი  შვილები ერთ ხაზზე განლაგდებიან */
+      flex-wrap: wrap;       /* თუ ელემენტები ვერ ეტევიან, გადავიდნენ ქვედა ხაზზე */
+      width: 300px;          /* კონტეინერის სიგანე შეზღუდულია */
+      background-color: white; /* ფონური ფერი */
+    }
+
+    .item {
+      width: 100px;          /* თითოეული ელემენტის სიგანე */
+      height: 100px;         /* სიმაღლე */
+      background-color: green; /* მწვანე ფონი */
+      margin: 5px;           /* მცირედი დაშორება ელემენტებს შორის */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="item"></div>  
+    <div class="item"></div>  
+    <div class="item"></div>  
+    <div class="item"></div>  
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+.box-absolute {
+  width: 150px;
+  height: 150px;
+  background-color: lightgreen;
+  border: 2px solid darkgreen;
+
+  position: absolute; 
+  top: 230px;        
+  right: 140px;       
+}
