@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: hsl(0, 0%, 100%);
+    padding: 2rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4);
+  grid-auto-rows: 120px;
+  gap: 1.5rem;
+  grid-template-areas: 
+  " .  .  .  ."
+  " .  .  .  ."
+  " .  .  .  ."
+  " .  .  .  ."
+  " .  .  .  .";
+}
+.post {
+    background: hsl(39, 100%, 71%)
+}
+.post button {
+    margin: 1rem;
+    padding: 0.7rem;
+    border-radius: 999px;
+    background:hsl(256, 67%, 59%) ;
+    color: hsl(0, 0%, 100%);
+    border: none;
+}
+.social{
+    background: hsl(256, 67%, 59%);
+    color: white;
+    grid-column: span 2;
+    text-align: center;
+    justify-content: center;
+}
+.social h2 {
+    padding: 1rem;
+}
+.fivesix {
+    background: hsl(39, 100%, 71%);
+    color: white;
+    grid-column: span 2;
+    text-align: center;
+    justify-content: center;
+}
+.fivesix h2 {
+    padding: 2rem;
+}
+.audience {
+    width: 100%;
+}
