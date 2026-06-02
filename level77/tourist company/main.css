@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: #c62828;
+  font-size: 48px;
+}
+
+body{
+    background-image: url(image.png); 
+    background-repeat:no-repeat;
+    background-color: white;
+}
+.why h2{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: #c62828;
+}
+.why {
+    display: flex;
+    flex-direction: column;  
+    background-color: white;
+    width: 800px;
+    border-radius: 8px;
+    margin: 100px auto;
+    padding: 40px;
+    margin-top: 30%;
+}
+.why h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #c62828;
+    font-size: 36px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.why h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.why p {
+    font-size: 16px;
+    line-height: 1.6;   
+    margin-bottom: 15px;
+}
+
+.red, .red2{
+    color: #c62828;
+}
+.baxcha, .baxcha2{
+    width: 500px;
+}
+.baxcha h4{
+    color: rgb(97, 97, 97);
+ 
+}
+.baxcha2 h4{
+    color: rgb(97, 97, 97);
+}
+.row {
+    display: flex;
+    gap: 30px; 
+}
+
+.baxcha, .baxcha2 {
+    flex: 1; 
+}
+
+.rowsecond {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+
+.rowsecond img {
+    width: 350px;
+    height: 250px;
+}
+
+.test {
+    display: block;
+}
+
+
+.test h4 {
+    color: rgb(97, 97, 97);
+}
+.tour {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    color: #c62828;
+    text-align: center;
+    margin: 40px 0 20px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.tour:hover {
+    color: #8e0000;
+}
+
+
+.form-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/886/793/small/dark-red-abstract-background-vector.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.form-container h2 {
+    text-align: center;
+    color: #c62828;
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.form-container input:focus {
+    border-color: #c62828;
+}
+
+.form-container button {
+    padding: 10px;
+    background: #c62828;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-container button:hover {
+    background: #8e0000;
+}
+.form-img {
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.luxury {
+    width: 600px;
+    height: 500px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+    background-image: url(v880-kul-12-a.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;   
+    align-items: center;  
+    position: relative;  
+    margin-left: 50%;
+}
+
+.luxury::before {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.luxury .content {
+    position: relative;
+    max-width: 350px;
+    text-align: center;
+    color: white;
+    padding: 0 30px;
+}
+
+
+.luxury button {
+    margin-top: 15px;
+    padding: 12px 18px;
+    background-color: #097bb0;
+    border: 2px solid #097bb0;
+    border-radius: 6px;
+    color: white;
+    white-space: nowrap;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.luxury button:hover {
+    background-color: transparent;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+.uwu{
+    display: flex;
+    justify-content: center;
+    margin-right: 49.4%;
+    width: 700px;
+    height: 580px;
+}
+
+.services{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    color: #c62828;
+    text-align: center;
+    margin-right: 190%;
+    cursor: pointer;
+}
+
+.services:hover{
+  color: #790e0e
+}

@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-image: url(https://yorktowers.com/wp-content/uploads/2024/09/Where-is-Tbilisi.jpg);
+  }
+
+
+
+.why {
+    display: flex;
+    flex-direction: column;  
+    background-color: white;
+    width: 800px;
+    height: 900px;
+    border-radius: 8px;
+    margin: 100px auto;
+    padding: 40px;
+}
+
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: #c62828;
+  font-size: 48px;
+}
+
+.red{
+  color: #c62828;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.why h3{
+  color: rgb(101, 101, 110);
+}
+.ttours img{
+  width: 300px;
+  transition: 0.3;
+  cursor: pointer;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.imgg:hover{
+  transform: scale(1.1);
+  border-radius: 15px;
+}
+.ttours h1{
+  color: #2a2a2a;
+}
+.ttours h3{
+  color: rgb(95, 95, 95);
+}
+.ttours button{
+  width: 120px;
+  background-color: rgb(42, 90, 250);
+  border: none;
+  color: white;
+  height: 50px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.ttours{
+  background-color: rgb(221, 219, 219);
+  width: 400px;
+  height: 460px;
+}
